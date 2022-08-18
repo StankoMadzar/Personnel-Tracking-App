@@ -4,7 +4,7 @@
     <Compile Update="FrmDepartment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="frmDepartmentList.cs">
+    <Compile Update="FmDepartmentList.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmEmployeeList.cs">
@@ -19,10 +19,25 @@
     <Compile Update="FrmMain.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FrmPermissionList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmPersmission.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FrmPosition.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmPositionList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmSalaryList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FrmTask.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FrmTaskList.cs">

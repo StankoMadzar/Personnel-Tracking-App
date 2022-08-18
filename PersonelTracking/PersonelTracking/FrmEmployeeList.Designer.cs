@@ -46,7 +46,7 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnNew = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -185,10 +185,10 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.btnNew);
             this.panel2.Controls.Add(this.btnClose);
             this.panel2.Controls.Add(this.btnDelete);
             this.panel2.Controls.Add(this.btnUpdate);
-            this.panel2.Controls.Add(this.btnAdd);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 350);
             this.panel2.Name = "panel2";
@@ -223,14 +223,14 @@
             this.btnUpdate.Text = " Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
             // 
-            // btnAdd
+            // btnNew
             // 
-            this.btnAdd.Location = new System.Drawing.Point(132, 30);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(87, 42);
-            this.btnAdd.TabIndex = 0;
-            this.btnAdd.Text = "Add";
-            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnNew.Location = new System.Drawing.Point(136, 30);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(87, 42);
+            this.btnNew.TabIndex = 4;
+            this.btnNew.Text = "New";
+            this.btnNew.UseVisualStyleBackColor = true;
             // 
             // FrmEmployeeList
             // 
@@ -258,7 +258,6 @@
         private Button btnClose;
         private Button btnDelete;
         private Button btnUpdate;
-        private Button btnAdd;
         private TextBox txtUserNo;
         private Label label1;
         private TextBox txtName;
@@ -271,5 +270,6 @@
         private Label label5;
         private ComboBox cmbDepartment;
         private Label label4;
+        private Button btnNew;
     }
 }

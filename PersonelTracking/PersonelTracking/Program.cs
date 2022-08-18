@@ -11,7 +11,7 @@ namespace PersonelTracking
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new FrmTaskList());
+            Application.Run(new FrmLogin());
         }
     }
 }

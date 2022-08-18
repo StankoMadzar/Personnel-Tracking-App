@@ -33,7 +33,7 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnNew = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -50,10 +50,10 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btnNew);
             this.panel1.Controls.Add(this.btnClose);
             this.panel1.Controls.Add(this.btnDelete);
             this.panel1.Controls.Add(this.btnUpdate);
-            this.panel1.Controls.Add(this.btnAdd);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 350);
             this.panel1.Name = "panel1";
@@ -88,14 +88,14 @@
             this.btnUpdate.Text = " Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
             // 
-            // btnAdd
+            // btnNew
             // 
-            this.btnAdd.Location = new System.Drawing.Point(182, 29);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(87, 42);
-            this.btnAdd.TabIndex = 4;
-            this.btnAdd.Text = "Add";
-            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnNew.Location = new System.Drawing.Point(185, 29);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(87, 42);
+            this.btnNew.TabIndex = 8;
+            this.btnNew.Text = "New";
+            this.btnNew.UseVisualStyleBackColor = true;
             // 
             // FrmPositionList
             // 
@@ -119,6 +119,6 @@
         private Button btnClose;
         private Button btnDelete;
         private Button btnUpdate;
-        private Button btnAdd;
+        private Button btnNew;
     }
 }

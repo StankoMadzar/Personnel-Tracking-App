@@ -305,7 +305,7 @@
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label2);
             this.Name = "FrmEmployee";
-            this.Text = "FrmEmployee";
+            this.Text = "Employee";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -21,10 +21,15 @@ C:\Users\smadzar\Desktop\Peronnel tracking App\PersonelTracking\PersonelTracking
 C:\Users\smadzar\Desktop\Peronnel tracking App\PersonelTracking\PersonelTracking\obj\Debug\net6.0-windows\PersonelTracking.genruntimeconfig.cache
 C:\Users\smadzar\Desktop\Peronnel tracking App\PersonelTracking\PersonelTracking\obj\Debug\net6.0-windows\ref\PersonelTracking.dll
 C:\Users\smadzar\Desktop\Peronnel tracking App\PersonelTracking\PersonelTracking\obj\Debug\net6.0-windows\PersonelTracking.FrmDepartment.resources
-C:\Users\smadzar\Desktop\Peronnel tracking App\PersonelTracking\PersonelTracking\obj\Debug\net6.0-windows\PersonelTracking.frmDepartmentList.resources
 C:\Users\smadzar\Desktop\Peronnel tracking App\PersonelTracking\PersonelTracking\obj\Debug\net6.0-windows\PersonelTracking.FrmEmployeeList.resources
 C:\Users\smadzar\Desktop\Peronnel tracking App\PersonelTracking\PersonelTracking\obj\Debug\net6.0-windows\PersonelTracking.FrmEmployee.resources
 C:\Users\smadzar\Desktop\Peronnel tracking App\PersonelTracking\PersonelTracking\obj\Debug\net6.0-windows\PersonelTracking.FrmMain.resources
 C:\Users\smadzar\Desktop\Peronnel tracking App\PersonelTracking\PersonelTracking\obj\Debug\net6.0-windows\PersonelTracking.FrmPosition.resources
 C:\Users\smadzar\Desktop\Peronnel tracking App\PersonelTracking\PersonelTracking\obj\Debug\net6.0-windows\PersonelTracking.FrmPositionList.resources
 C:\Users\smadzar\Desktop\Peronnel tracking App\PersonelTracking\PersonelTracking\obj\Debug\net6.0-windows\PersonelTracking.FrmTaskList.resources
+C:\Users\smadzar\Desktop\Peronnel tracking App\PersonelTracking\PersonelTracking\obj\Debug\net6.0-windows\PersonelTracking.FmDepartmentList.resources
+C:\Users\smadzar\Desktop\Peronnel tracking App\PersonelTracking\PersonelTracking\obj\Debug\net6.0-windows\PersonelTracking.FrmPermissionList.resources
+C:\Users\smadzar\Desktop\Peronnel tracking App\PersonelTracking\PersonelTracking\obj\Debug\net6.0-windows\PersonelTracking.FrmPersmission.resources
+C:\Users\smadzar\Desktop\Peronnel tracking App\PersonelTracking\PersonelTracking\obj\Debug\net6.0-windows\PersonelTracking.FrmSalary.resources
+C:\Users\smadzar\Desktop\Peronnel tracking App\PersonelTracking\PersonelTracking\obj\Debug\net6.0-windows\PersonelTracking.FrmSalaryList.resources
+C:\Users\smadzar\Desktop\Peronnel tracking App\PersonelTracking\PersonelTracking\obj\Debug\net6.0-windows\PersonelTracking.FrmTask.resources
