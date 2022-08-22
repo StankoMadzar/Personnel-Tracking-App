@@ -31,5 +31,21 @@ namespace PersonelTracking
         {
             this.Close();
         }
+
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+            FrmPermissionList frm = new FrmPermissionList();
+            this.Hide();
+            frm.ShowDialog();
+            this.Visible = true;
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            FrmPermissionList frm = new FrmPermissionList();
+            this.Hide();
+            frm.ShowDialog();
+            this.Visible = true;
+        }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace PersonelTracking
 {
-    partial class FmDepartmentList
+    partial class FrmDepartmentList
     {
         /// <summary>
         /// Required designer variable.
@@ -47,6 +47,7 @@
             this.dataGridView1.RowTemplate.Height = 25;
             this.dataGridView1.Size = new System.Drawing.Size(531, 384);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // panel1
             // 
@@ -87,6 +88,7 @@
             this.btnUpdate.TabIndex = 1;
             this.btnUpdate.Text = " Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnNew
             // 
@@ -96,15 +98,16 @@
             this.btnNew.TabIndex = 0;
             this.btnNew.Text = "New";
             this.btnNew.UseVisualStyleBackColor = true;
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
-            // FmDepartmentList
+            // FrmDepartmentList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(531, 340);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "FmDepartmentList";
+            this.Name = "FrmDepartmentList";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Department List";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

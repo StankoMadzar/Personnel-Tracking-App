@@ -55,13 +55,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnNew = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnDisapproved = new System.Windows.Forms.Button();
             this.btnApprove = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnNew = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -331,6 +331,16 @@
             this.panel2.Size = new System.Drawing.Size(726, 104);
             this.panel2.TabIndex = 1;
             // 
+            // btnNew
+            // 
+            this.btnNew.Location = new System.Drawing.Point(155, 30);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(87, 42);
+            this.btnNew.TabIndex = 6;
+            this.btnNew.Text = "New";
+            this.btnNew.UseVisualStyleBackColor = true;
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
+            // 
             // btnClose
             // 
             this.btnClose.Location = new System.Drawing.Point(504, 30);
@@ -358,6 +368,7 @@
             this.btnUpdate.TabIndex = 3;
             this.btnUpdate.Text = " Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDisapproved
             // 
@@ -386,15 +397,6 @@
             this.dataGridView1.RowTemplate.Height = 25;
             this.dataGridView1.Size = new System.Drawing.Size(726, 324);
             this.dataGridView1.TabIndex = 2;
-            // 
-            // btnNew
-            // 
-            this.btnNew.Location = new System.Drawing.Point(155, 30);
-            this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(87, 42);
-            this.btnNew.TabIndex = 6;
-            this.btnNew.Text = "New";
-            this.btnNew.UseVisualStyleBackColor = true;
             // 
             // FrmPermissionList
             // 
